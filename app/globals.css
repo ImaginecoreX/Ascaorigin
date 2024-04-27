@@ -74,3 +74,69 @@
       @apply bg-background text-foreground;
     }
   }
+
+
+  /* ############################################### */
+/* media queries */
+/* Nano Small Screen (ns) */
+@media (max-width: 320px) {
+  /* Your CSS rules for small screens here */
+  .frame-container {
+    width: 90%;
+  }
+}
+
+/* Small small Screen (ss) */
+@media (min-width:320px) and (max-width: 750px) {
+  /* Your CSS rules for small screens here */
+  .frame-container {
+    width: calc(100% - 20px);/*100% - 32px - default {16, 24, 32}*/
+  }
+}
+
+/* Small Screen (md) */
+@media (min-width: 751px) and (max-width: 1000px) {
+  /* Your CSS rules for small screens here */
+  .frame-container {
+    width: 94%;
+  }
+}
+
+/* Large Screen (lg) */
+@media (min-width: 1001px) and (max-width: 1280px) {
+  /* Your CSS rules for large screens here */
+  .frame-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 74px;
+    padding-right: 74px;
+  }
+}
+
+/* Large Screen (xl) */
+@media (min-width: 1281px) and (max-width: 1480px)  {
+  /* Your CSS rules for large screens here */
+  .frame-container {
+    width: 90%;
+  }
+}
+
+/* Large Screen (2xl) */
+@media (min-width: 1481px){
+  /* Your CSS rules for large screens here */
+  .frame-container {
+    width: 1280px;
+  }
+}
+
+.outline-text{
+  color: transparent; /* Make the text transparent */
+  -webkit-text-fill-color: transparent; /* Make the text fill transparent for WebKit browsers */
+  -webkit-text-stroke-width: 2px; /* Width of the stroke */
+  -webkit-text-stroke-color: #FFF1CE; /* Color of the stroke */
+  
+  /* Standard syntax */
+  text-fill-color: transparent; /* Make the text fill transparent */
+  text-stroke-width: 2px; /* Width of the stroke */
+  text-stroke-color: #FFF1CE; /* Color of the stroke */
+}

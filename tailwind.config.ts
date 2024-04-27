@@ -18,11 +18,32 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens:{
+      "nsTsm": {'min':'279px', 'max': '750px'},
+      "mdTlg": {'min': '751px' , 'max': '1000px'},
+      "lgTxl": {'min': '1001px' , 'max': '1280px'},
+      "xlT2xl": {'min': '1281px' , 'max': '1480px'},
+
+        "mdUp": {'min': '751px'},
+        "lgUp": {'min': '1001px'},
+        "xlUp": {'min': '1281px'},
+        "2xlUp": {'min': '1481px'},
+
+    
+    },
     extend: {
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {
+
+
+        "prime":"#FFF1CE",
+        "point":"#FFBC0E",
+        "pointB":"#FFCD4B",
+        "shade":"#131313",
+
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
