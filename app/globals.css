@@ -140,3 +140,8 @@
   text-stroke-width: 2px; /* Width of the stroke */
   text-stroke-color: #FFF1CE; /* Color of the stroke */
 }
+
+.about-img{
+  height: calc(100vh - 10px);
+  width: auto;
+}
