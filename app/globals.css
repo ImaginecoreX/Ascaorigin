@@ -145,3 +145,8 @@
   height: calc(100vh - 10px);
   width: auto;
 }
+
+.values-maze{
+  height: calc(100vh - 5vh);
+  width: auto;
+}

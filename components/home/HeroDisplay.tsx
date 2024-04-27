@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroDisplay = () => {
   return (
-    <div className='w-full min-h-screen bg-red-50'>
+    <section className='w-full min-h-screen bg-red-50'>
       
       <video
         autoPlay
@@ -13,7 +13,7 @@ const HeroDisplay = () => {
           <source src='/hero.webm' type='video/webm' />
         </video>
 
-    </div>
+    </section>
   )
 }
 

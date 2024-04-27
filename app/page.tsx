@@ -3,8 +3,8 @@ import Image from "next/image";
 import Navbar from "../components/home/Navbar";
 import HeroText from "@/components/home/HeroText";
 import HeroDisplay from "@/components/home/HeroDisplay";
-import About from "@/components/home/About";
-import Concept from "@/components/home/Concept";
+
+
 
 export default function Home() {
   return (
@@ -19,10 +19,6 @@ export default function Home() {
       {/* About Section------------ */}
       <About />
       {/* About Section------------ */}
-
-      {/* Concept Section------------ */}
-      <Concept />
-      {/* Concept Section------------ */}
     </main>
   );
 }
