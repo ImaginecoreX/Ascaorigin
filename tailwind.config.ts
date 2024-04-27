@@ -78,6 +78,12 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      backgroundColor:{
+        "prime":"#FFF1CE",
+        "point":"#FFBC0E",
+        "pointB":"#FFCD4B",
+        "shade":"#131313",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
