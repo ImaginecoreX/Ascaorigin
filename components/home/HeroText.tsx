@@ -5,7 +5,7 @@ const poppins = Poppins({ weight: ['100', '200', '300', '400', '500', '600', '70
 
 const HeroText = () => {
   return (
-    <div className="flex w-full flex-col items-center h-[350px] mt-[28px] ">
+    <section className="flex w-full flex-col items-center h-[350px] mt-[28px] ">
       <div className="frame-container  flex items-center justify-between mt-[71px]">
 
         {/* LEFT TEXT */}
@@ -29,7 +29,7 @@ const HeroText = () => {
         </div>
 
       </div>
-    </div>
+    </section>
   )
 }
 
