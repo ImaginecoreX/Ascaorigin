@@ -4,6 +4,7 @@ import Navbar from "../components/home/Navbar";
 import HeroText from "@/components/home/HeroText";
 import HeroDisplay from "@/components/home/HeroDisplay";
 import GetStarted from "@/components/home/GetStarted";
+import About from "@/components/home/About";
 
 
 
@@ -17,17 +18,14 @@ export default function Home() {
       {/* HERO Display ------------------------------------------------>> */}
       <HeroDisplay/>
 
-<<<<<<< HEAD
       {/* About Section------------ */}
       <About />
       {/* About Section------------ */}
-=======
 
 
       {/* Get Started - Steps we take */}
       <GetStarted/>
 
->>>>>>> d876fd0 (new GetStarted Section changes)
     </main>
   );
 }
