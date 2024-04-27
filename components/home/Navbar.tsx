@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <div className={`${pacifico.className} text-white text-[1.5rem]`}>Ascaorign</div>
 
-        <div className={`${quando.className} text-[15px] flex items-center gap-12 text-white`}>
+        <div className={`${quando.className} text-[15px] flex items-center gap-12 text-white mobileView:hidden`}>
           <div>How It’s Done</div>
           <div>Recent Concepts</div>
           <div>FAQ</div>
