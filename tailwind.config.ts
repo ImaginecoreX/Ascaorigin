@@ -19,10 +19,10 @@ const config = {
       },
     },
     screens:{
-      "nsTsm": {'min':'279px', 'max': '750px'},
-      "mdTlg": {'min': '751px' , 'max': '1000px'},
-      "lgTxl": {'min': '1001px' , 'max': '1280px'},
-      "xlT2xl": {'min': '1281px' , 'max': '1480px'},
+      "mobileView": {'min':'279px', 'max': '750px'},
+      "tabView": {'min': '751px' , 'max': '1000px'},
+      "desktopView": {'min': '1001px' , 'max': '1280px'},
+      "largeScreenView": {'min': '1281px' , 'max': '1480px'},
 
         "mdUp": {'min': '751px'},
         "lgUp": {'min': '1001px'},
