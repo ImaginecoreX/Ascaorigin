@@ -1,0 +1,12 @@
+export const AllQAs = [
+  {
+    value:"item-1",
+    title:"What is a concept, and what does it include?",
+    description:"A concept is an idea wrapped in a design. Depending on the complexity of the product, it’s either 3-5 informational blocks (landing page), 2-5 mobile screens (mobile app), or 2 primary screens (dashboard). If to be recognized the idea requires animation — it can be added free of charge. ‍ It can be used as promo materials, you can showcase them to stakeholders and investors, and it can be easily scalable to your project MVP. It can be used by: first-time entrepreneurs, developers in need of UI design, tech professionals looking to venture out, side hustlers, founders looking for VC, designers who need a detached view, look, and everyone who could use a great design concept. ‍ Webflow implementation allows you to get a fully functional and deployed website developed by our team on Webflow. ‍ One of the main requirements allowing us to charge such a competitive price is limited edits per concept. We can do small changes to the copy and layouts but every significant pivot should happen on terms different from the initial agreement.",
+  },
+  {
+    value:"item-2",
+    title:"What is a concept, and what does it include?",
+    description:"A concept is an idea wrapped in a design. Depending on the complexity of the product, it’s either 3-5 informational blocks (landing page), 2-5 mobile screens (mobile app), or 2 primary screens (dashboard). If to be recognized the idea requires animation — it can be added free of charge. ‍ It can be used as promo materials, you can showcase them to stakeholders and investors, and it can be easily scalable to your project MVP. It can be used by: first-time entrepreneurs, developers in need of UI design, tech professionals looking to venture out, side hustlers, founders looking for VC, designers who need a detached view, look, and everyone who could use a great design concept. ‍ Webflow implementation allows you to get a fully functional and deployed website developed by our team on Webflow. ‍ One of the main requirements allowing us to charge such a competitive price is limited edits per concept. We can do small changes to the copy and layouts but every significant pivot should happen on terms different from the initial agreement.",
+  },
+];
