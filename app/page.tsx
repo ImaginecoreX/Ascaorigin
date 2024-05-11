@@ -9,7 +9,8 @@ import About from "@/components/home/About";
 import OurValues from "@/components/home/OurValues";
 import AddOns from "@/components/home/AddOns";
 import QA from "@/components/home/QA";
-
+import RecentIdeas from "@/components/home/RecentIdeas";
+import Footer from "@/components/home/Footer";
 
 export default function Home() {
   return (
@@ -29,18 +30,23 @@ export default function Home() {
       <Concept />
       {/* Concept Section------------ */}
 
+      {/* Recent Ideas Section------------ */}
+      <RecentIdeas />
+      {/* Recent Ideas Section------------ */}
+
       {/* Get Started - Steps we take */}
-      <GetStarted/>
+      <GetStarted />
 
       {/* OUR VALUES */}
-      <OurValues/>
+      <OurValues />
 
       {/* Project Service Add-Ons */}
-      <AddOns/>
+      <AddOns />
 
       {/* FREQUENTLY ASKED → QUESTIONS */}
-      <QA/>
+      <QA />
 
+      <Footer/>
     </main>
   );
 }
